@@ -1,14 +1,20 @@
-#include <main.h>
-
+#include "main.h"
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
- *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * main - Print "Holberton" followed by a new line.
+ * Description: You are not allowed to include standard libraries.
+ * Return: 0
  */
-int _putchar(char c)
+int main(void)
 {
-	printf ("_puchar\n")
+	char main[] = "_putchar";
+	int i = 0;
+
+	while (mian[i] != '\0')
+	{
+		_putchar(main[i]);
+		i++;
+	}
+	_putchar('\n');
+
 	return (0);
 }
